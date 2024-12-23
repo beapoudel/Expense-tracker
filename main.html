@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="mainpage">
+  <div id="button">
+  <button id="butt1" class=" buttontab active" onclick="opentab(event);
+    opencontent(tab1);
+  ">Enter Data </button>
+  <button id="butt2" class="buttontab" onclick="opentab(event);
+  opencontent(tab2);
+  ">Expenses Data</button>
+</div>
+    <div id="tab1" class="content active">
+    <div class="incomedata"></div>
+<div class="savingdata"></div>
+<div class="expensedata"></div>
+<button class="incomebutton"
+ onclick="calculate();"
+ >Enter</button>
+<button class="savingbutton" onclick="calculate();
+">Enter</button>
+<input placeholder="Enter the income" type="data" class="income"onkeydown="console.log(event.key);
+   if(event.key==='Enter'){
+    calculate();
+   }
+   ">
+   <input placeholder="Enter the saving" type="data" class="saving"onkeydown="console.log(event.key);
+   if(event.key==='Enter'){
+    calculate();
+   }
+   ">
+    </div>
+       <div id="tab2" class="content">
+       <label class="labelforspend">Spend On</label>
+      <select id="spendon" >
+       <option value="Shopping">Shopping</option>
+       <option value="Groceries">Groceries</option>
+       <option value="Bill Payment">Bill Payment</option>
+       <option value="EMI">EMI</option>
+       <option value="Other Expenses">Other Expenses</option></select>
+     
+     <label class="labelfortransaction">Mode of Transaction</label>
+     <select id="transactionmode">
+       <option value="Cash">Cash</option>
+       <option value="UPI">UPI</option>
+       <option value="Bank Transfer">Bank Transfer</option>
+   </select>
+   <div class="labelforamount">Enter Amount</div>
+    <input placeholder="Amount Spend" type="data"
+    class="spendamount"onkeydown="console.log(event.key);
+    if(event.key==='Enter'){
+       expense();
+    }
+    ">
+    <div class="expensetraker">Amount remain:- </div>
+    <div class="tracker"></div>
+       <div class="result"></div>
+       </div>
+     <script src="tracker.js"></script>
+</body>
+</html>

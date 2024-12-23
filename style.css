@@ -1,0 +1,573 @@
+@media screen and (max-width: 720px) {
+    
+body{
+    background-color: whitesmoke;
+}
+.img{
+    position: absolute;
+    left: 75px;
+    border: none;
+    background: transparent;
+    top: 100px;
+}   
+.take{
+    position: absolute;
+    top: 400px;
+    left: 12px;
+    font-size: 35px;
+    font-weight: bolder;
+} 
+ .control{
+    position: absolute;
+    top: 400px;
+    left: 123px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: orange;
+ }
+.of{
+    position: absolute;
+    top: 400px;
+    left: 310px;
+    font-size: 35px;
+    font-weight: bolder;
+} 
+.your{
+    position: absolute;
+    top: 450px;
+    left: 35px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.finance{
+    position: absolute;
+    top: 450px;
+    left: 155px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: blue;
+}
+.indexhead{
+    position: absolute;
+    top: 500px;
+    right: 65px;
+    left: 50px;
+    text-align: center;
+}
+.start{
+    position: absolute;
+    top: 570px;
+    left: 105px;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.mainpage{
+    background-color: rgb(255, 255, 219);
+}
+.incomebutton{
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    background-color: black;
+    color: aliceblue;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+}
+.income{
+    position: absolute;
+    top:63px ;
+    left: 130px;
+}
+.savingbutton{
+    position: absolute;
+    top: 110px;
+    left: 35px;
+    background-color: black;
+    color: aliceblue;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+}
+.saving{
+    position: absolute;
+    top: 113px;
+    left: 130px;
+}
+.incomedata{
+    background-color: rgb(250, 206, 213);
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    left: 25px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.incomedesign{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    font-size: xx-large;
+}
+.savingdata{
+    background-color: rgb(197, 232, 243);
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    left: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.savingdesign{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    font-size: xx-large;
+}
+.expensedata{
+    background-color:rgb(179, 238, 179);
+    text-align: center;
+    position: absolute;
+    top: 410px;
+    left: 112px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.expensedesign{
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left:10px;
+    font-size: 30px;
+}
+.buttontab.active{
+    background-color: lightblue;
+}
+.content{
+    display: none;
+}
+.content.active{
+    display: block;
+}
+.buttontab{
+    position: fixed;
+    top: 20px;
+ padding-left: 10px;
+ padding-right: 10px;
+ background-color:rgb(255, 255, 219); ;
+
+}
+#butt2{
+    position: absolute;
+    right: 50px;
+    border-radius: 20px;
+    font-weight: bolder;
+    border: none;
+}
+#butt1{
+    position: absolute;
+    left: 50px;
+    border-radius: 20px;
+    font-weight: bolder;
+    border: none;
+}
+#tab2{
+    padding-top: 60px;
+}
+.labelforspend{
+    font-weight: bolder;
+    position: absolute;
+    left: 20px;
+}
+.labelfortransaction{
+    font-weight: bolder;
+    position: absolute;
+    top: 110px;
+    left: 20px;
+}
+.labelforamount{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-weight: bolder;
+}
+#spendon{
+    position: absolute;
+    left: 200px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+#transactionmode{
+    position: absolute;
+    top: 110px;
+    left: 200px;
+    padding-right: 13px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+.spendamount{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    right: 53px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+.result{ 
+    padding-left: 20px;
+    position: relative;
+    top: 200px;
+    display: grid;
+    column-gap: 20px;
+}
+.expensetraker{
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    font-weight: bolder;
+}
+.tracker{
+    position: absolute;
+    top: 220px;
+    left: 200px;
+    font-weight: bolder;
+}
+.todo{
+    position: relative;
+    left: 50px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.toto{
+    position: relative;
+    left: 180px;
+    font-weight: bolder;
+}
+.tum{
+    position: relative;
+    left: 50px;
+    opacity: 0.7;
+    font-weight: bolder;
+}
+.forall{
+    border-style:double;
+    background-color: rgb(255, 221, 227);
+}
+.index{
+    font-weight: bolder;
+    font-size: larger;
+}
+}
+@media screen and (min-width: 720px){
+        body{
+            background-color: whitesmoke;
+        }
+        .img{
+            position: absolute;
+            left: 540px;
+            border: none;
+            background: transparent;
+            top: 50px;
+            height: 400px;
+            width: 400px;
+        }   
+        .take{
+            position: absolute;
+            top: 420px;
+            left: 430px;
+            font-size: 35px;
+            font-weight: bolder;
+        } 
+         .control{
+            position: absolute;
+            top: 420px;
+            left: 547px;
+            font-size: 35px;
+            font-weight: bolder;
+            color: orange;
+         }
+        .of{
+            position: absolute;
+            top: 420px;
+            left: 740px;
+            font-size: 35px;
+            font-weight: bolder;
+        } 
+        .your{
+            position: absolute;
+            top: 420px;
+            left: 803px;
+            font-size: 35px;
+            font-weight: bolder;
+        }
+        .finance{
+            position: absolute;
+            top: 420px;
+            left: 928px;
+            font-size: 35px;
+            font-weight: bolder;
+            color: blue;
+        }
+        .indexhead{
+            position: absolute;
+            top: 500px;
+            left: 495px; 
+            text-align: center;
+            font-size: larger;
+        }
+        .start{
+            position: absolute;
+            top: 560px;
+            left: 675px;
+            width: 150px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        .mainpage{
+            background-color: rgb(255, 255, 219);
+        }
+        .incomebutton{
+            position: absolute;
+            top: 113px;
+            left: 605px;
+            background-color: black;
+            color: aliceblue;
+            height: 40px;
+            width: 70px;
+            border-radius: 10px;
+        }
+        .income{
+            position: absolute;
+            top:120px ;
+            left: 720px;
+            height: 20PX;
+        }
+        .savingbutton{
+            position: absolute;
+            top: 173px;
+            left: 605px;
+            background-color: black;
+            color: aliceblue;
+            height: 40px;
+            width: 70px;
+            border-radius: 10px;
+        }
+        .saving{
+            position: absolute;
+            top: 180px;
+            left: 720px;
+            height: 20PX;
+        }
+        .incomedata{
+            background-color: rgb(250, 206, 213);
+            text-align: center;
+            position: absolute;
+            top: 300px;
+            left: 520px;
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+        }
+        .incomedesign{
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            font-size: xx-large;
+        }
+        .savingdata{
+            background-color: rgb(197, 232, 243);
+            text-align: center;
+            position: absolute;
+            top: 300px;
+            left: 765px;
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+        }
+        .savingdesign{
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            font-size: xx-large;
+        }
+        .expensedata{
+            background-color:rgb(179, 238, 179);
+            text-align: center;
+            position: absolute;
+            top: 530px;
+            left: 647px;
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+        }
+        .expensedesign{
+            text-align: center;
+            position: absolute;
+            top: 60px;
+            left:20px;
+            font-size: 30px;
+        }
+        .buttontab.active{
+            background-color: lightblue;
+        }
+        .content{
+            display: none;
+        }
+        .content.active{
+            display: block;
+       }
+        .buttontab{
+            position: fixed;
+            top: 20px;
+         padding-left: 10px;
+         padding-right: 10px;
+         background-color:rgb(255, 255, 219); ;
+        
+        }
+        #butt2{
+            font-size: larger;
+            position: absolute;
+            right: 500px;
+            border-radius: 20px;
+            font-weight: bolder;
+            border: none;
+        }
+        #butt1{
+            font-size:larger ;
+            position: absolute;
+            left: 500px;
+            border-radius: 20px;
+            font-weight: bolder;
+            border: none;
+        }
+        #tab2{
+            padding-top: 60px;
+        }
+        .labelforspend{
+            font-weight: bolder;
+            position: absolute;
+            top: 127px;
+            left: 580px;
+            font-size: larger;
+        }
+        .labelfortransaction{
+            font-weight: bolder;
+            position: absolute;
+            top: 187px;
+            left: 500px;
+            font-size: larger;
+        }
+        .labelforamount{
+            position: absolute;
+            top: 252px;
+            left: 550px;
+            font-weight: bolder;
+            font-size: larger;
+        }
+        #spendon{
+            position: absolute;
+            top: 120px;
+            left: 720px;
+            background-color: black;
+            color: white;
+            font-style: italic;
+            font-weight: bold;
+            height: 40px;
+            width: 150px;
+        }
+        #transactionmode{
+            position: absolute;
+            top: 180px;
+            left: 720px;
+            padding-right: 13px;
+            background-color: black;
+            color: white;
+            font-style: italic;
+            font-weight: bold;
+            height: 40px;
+            width: 150px;
+        }
+        .spendamount{
+            position: absolute;
+            top: 240px;
+            left: 720px;
+            right: 660px;
+            background-color: black;
+            color: white;
+            font-style: italic;
+            font-weight: bold;
+            height: 40px;
+            width: 150;
+        }
+        .result{ 
+            padding-left: 500px;
+            padding-right: 600px;
+            position: relative;
+            top: 350px;
+            display: grid;
+            column-gap: 20px;
+        }
+        .expensetraker{
+            position: absolute;
+            top: 312px;
+            left: 550px;
+            font-weight: bolder;
+            font-size: larger;
+        }
+        .tracker{
+            position: absolute;
+            top: 312px;
+            left: 750px;
+            font-weight: bolder;
+            font-size: x-large;
+        }
+        .todo{
+            position: relative;
+            left: 50px;
+            font-weight: bolder;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+        
+        }
+        .toto{
+            position: relative;
+            left: 180px;
+            font-weight: bolder;
+            font-size: larger;
+        }
+        .tum{
+            position: relative;
+            left: 50px;
+            opacity: 0.7;
+            font-weight: bolder;
+            font-size: larger;
+        }
+        .forall{
+            border-style:double;
+            background-color: rgb(255, 221, 227);
+        }
+        .index{
+            font-weight: bolder;
+            font-size: larger;
+        }
+        
+        
+}
+
